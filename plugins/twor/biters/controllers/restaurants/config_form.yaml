@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Restaurant
+
+# Model Form Field configuration
+form: $/twor/biters/models/restaurant/fields.yaml
+
+# Model Class name
+modelClass: TwoR\Biters\Models\Restaurant
+
+# Default redirect location
+defaultRedirect: twor/biters/restaurants
+
+# Create page
+create:
+    title: Create Restaurant
+    redirect: twor/biters/restaurants/update/:id
+    redirectClose: twor/biters/restaurants
+
+# Update page
+update:
+    title: Edit Restaurant
+    redirect: twor/biters/restaurants
+    redirectClose: twor/biters/restaurants
+
+# Preview page
+preview:
+    title: Preview Restaurant
