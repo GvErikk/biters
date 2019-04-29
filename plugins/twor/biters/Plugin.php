@@ -17,9 +17,9 @@ class Plugin extends PluginBase
     {
         return [
             'name'        => 'Biters',
-            'description' => 'No description provided yet...',
-            'author'      => 'TwoR',
-            'icon'        => 'icon-leaf'
+            'description' => 'Custom plugin voor het biters systeem.',
+            'author'      => '2R Development Erik van Gemert',
+            'icon'        => 'icon-coffee'
         ];
     }
 
