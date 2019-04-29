@@ -11,6 +11,13 @@ class CreateCustomersTable extends Migration
         Schema::create('twor_biters_customers', function(Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
+            $table->string('naam');
+            $table->string('city');
+            $table->string('postalcode');
+            $table->string('street');
+            $table->integer('number');
+            $table->string('email');
+            $table->string('phone');
             $table->timestamps();
         });
     }

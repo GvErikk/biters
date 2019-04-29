@@ -11,6 +11,10 @@ class CreateReservationsTable extends Migration
         Schema::create('twor_biters_reservations', function(Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
+            $table->integer('numberofclients');
+            $table->integer('distance');
+            $table->date('reservationdate');
+            $table->string('allergies');
             $table->timestamps();
         });
     }
