@@ -11,6 +11,11 @@ class CreateRestaurantsTable extends Migration
         Schema::create('twor_biters_restaurants', function(Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
+            $table->string('Name');
+            $table->string('City');
+            $table->string('Postalcode');
+            $table->string('Street');
+            $table->integer('Number');
             $table->timestamps();
         });
     }
