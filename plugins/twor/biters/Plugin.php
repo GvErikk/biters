@@ -1,4 +1,4 @@
-<?php namespace 2R\Biters;
+<?php namespace TwoR\Biters;
 
 use Backend;
 use System\Classes\PluginBase;
@@ -18,7 +18,7 @@ class Plugin extends PluginBase
         return [
             'name'        => 'Biters',
             'description' => 'No description provided yet...',
-            'author'      => '2R',
+            'author'      => 'TwoR',
             'icon'        => 'icon-leaf'
         ];
     }
@@ -53,7 +53,7 @@ class Plugin extends PluginBase
         return []; // Remove this line to activate
 
         return [
-            '2R\Biters\Components\MyComponent' => 'myComponent',
+            'TwoR\Biters\Components\MyComponent' => 'myComponent',
         ];
     }
 
@@ -67,7 +67,7 @@ class Plugin extends PluginBase
         return []; // Remove this line to activate
 
         return [
-            '2r.biters.some_permission' => [
+            'twor.biters.some_permission' => [
                 'tab' => 'Biters',
                 'label' => 'Some permission'
             ],
@@ -86,9 +86,9 @@ class Plugin extends PluginBase
         return [
             'biters' => [
                 'label'       => 'Biters',
-                'url'         => Backend::url('2r/biters/mycontroller'),
+                'url'         => Backend::url('twor/biters/mycontroller'),
                 'icon'        => 'icon-leaf',
-                'permissions' => ['2r.biters.*'],
+                'permissions' => ['twor.biters.*'],
                 'order'       => 500,
             ],
         ];
