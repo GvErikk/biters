@@ -95,6 +95,12 @@ class Plugin extends PluginBase
                         'url'         => Backend::url('twor/biters/restaurants'),
                         'permissions' => ['twor.biters.*']
                     ],
+                    'princeranges' => [
+                        'label' => 'Prijsklasse',
+                        'icon'        => 'icon-money',
+                        'url'         => Backend::url('twor/biters/priceranges'),
+                        'permissions' => ['twor.biters.*']
+                    ],
                 ]
             ]
         ];
