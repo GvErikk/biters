@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Pricerange
+
+# Model Form Field configuration
+form: $/twor/biters/models/pricerange/fields.yaml
+
+# Model Class name
+modelClass: TwoR\Biters\Models\Pricerange
+
+# Default redirect location
+defaultRedirect: twor/biters/priceranges
+
+# Create page
+create:
+    title: Create Pricerange
+    redirect: twor/biters/priceranges/update/:id
+    redirectClose: twor/biters/priceranges
+
+# Update page
+update:
+    title: Edit Pricerange
+    redirect: twor/biters/priceranges
+    redirectClose: twor/biters/priceranges
+
+# Preview page
+preview:
+    title: Preview Pricerange
