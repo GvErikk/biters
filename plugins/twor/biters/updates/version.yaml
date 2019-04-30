@@ -6,3 +6,6 @@
     - Create the Biters Reservation and customer table
     - create_reservations_table.php
     - create_customers_table.php
+1.0.4:
+    - Seeding all tables
+    - seed_all_tables.php
