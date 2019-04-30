@@ -6,3 +6,7 @@ fields:
     id:
         label: ID
         disabled: true
+
+    pricerange:
+        label: Bedrag tot en met
+        disabled: false
