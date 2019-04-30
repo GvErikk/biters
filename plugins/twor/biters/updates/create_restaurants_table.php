@@ -17,6 +17,7 @@ class CreateRestaurantsTable extends Migration
             $table->string('Street');
             $table->integer('Number');
             $table->integer('pricerange_id')->nullable();
+            $table->integer('restauranttype_id')->nullable();
             $table->timestamps();
         });
     }

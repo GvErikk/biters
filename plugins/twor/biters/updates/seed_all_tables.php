@@ -26,5 +26,6 @@ class SeedAllTables extends  Seeder{
         Restauranttype::create(['Name'=> 'Chinees']);
         Restauranttype::create(['Name'=> 'Italiaans']);
         Restauranttype::create(['Name'=> 'Aziatisch']);
+        Restauranttype::create(['Name'=> 'Turks']);
     }
 }

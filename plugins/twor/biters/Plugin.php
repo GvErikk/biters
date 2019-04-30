@@ -101,18 +101,14 @@ class Plugin extends PluginBase
                         'url'         => Backend::url('twor/biters/priceranges'),
                         'permissions' => ['twor.biters.*']
                     ],
+                    'restauranttypes' => [
+                        'label' => 'Restaurant types',
+                        'icon'        => 'icon-sticky-note-o',
+                        'url'         => Backend::url('twor/biters/restauranttypes'),
+                        'permissions' => ['twor.biters.*']
+                    ],
                 ]
             ]
-        ];
-
-        return [
-            'biters' => [
-                'label'       => 'Biters',
-                'url'         => Backend::url('twor/biters/mycontroller'),
-                'icon'        => 'icon-leaf',
-                'permissions' => ['twor.biters.*'],
-                'order'       => 500,
-            ],
         ];
     }
 }
