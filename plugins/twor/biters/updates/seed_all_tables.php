@@ -7,6 +7,7 @@
  */
 use TwoR\Biters\Models\Restaurant;
 use TwoR\Biters\Models\Pricerange;
+use TwoR\Biters\Models\Restauranttype;
 use October\Rain\Database\Updates\Seeder;
 
 class SeedAllTables extends  Seeder{
@@ -21,5 +22,9 @@ class SeedAllTables extends  Seeder{
         Pricerange::create(['Pricerange'=> '35']);
         Pricerange::create(['Pricerange'=> '45']);
         Pricerange::create(['Pricerange'=> '55']);
+
+        Restauranttype::create(['Name'=> 'Chinees']);
+        Restauranttype::create(['Name'=> 'Italiaans']);
+        Restauranttype::create(['Name'=> 'Aziatisch']);
     }
 }

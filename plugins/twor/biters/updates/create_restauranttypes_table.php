@@ -11,6 +11,7 @@ class CreateRestauranttypesTable extends Migration
         Schema::create('twor_biters_restauranttypes', function(Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
+            $table->string('name');
             $table->timestamps();
         });
     }
