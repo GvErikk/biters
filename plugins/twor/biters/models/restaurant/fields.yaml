@@ -32,3 +32,9 @@ fields:
         type: relation
         nameFrom: pricerange
         comment: Bedrag tot en met
+
+    Restauranttype:
+        label: Cuisine
+        type: relation
+        nameFrom: name
+        comment: Kies het type restaurant

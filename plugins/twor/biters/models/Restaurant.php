@@ -29,6 +29,8 @@ class Restaurant extends Model
     public $hasMany = [];
     public $belongsTo = [
         'Pricerange' => ['TwoR\Biters\Models\Pricerange'],
+
+        'Restauranttype' => ['TwoR\Biters\Models\Restauranttype'],
     ];
     public $belongsToMany = [];
     public $morphTo = [];

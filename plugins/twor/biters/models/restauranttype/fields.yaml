@@ -3,6 +3,6 @@
 # ===================================
 
 fields:
-    id:
-        label: ID
-        disabled: true
+    name:
+        label: Type
+        comment: Vul het soort cuisine in.

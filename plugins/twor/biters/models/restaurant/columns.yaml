@@ -31,3 +31,8 @@ columns:
         label: Pricerange
         relation: Pricerange
         select: pricerange
+
+    Restauranttype:
+        label: Cuisine
+        relation: Restauranttype
+        select: name
