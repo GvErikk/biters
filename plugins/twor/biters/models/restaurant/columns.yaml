@@ -6,3 +6,23 @@ columns:
     id:
         label: ID
         searchable: true
+
+    Name:
+        label: Name
+        searchable: true
+
+    City:
+        label: Plaats
+        searchable: true
+
+    Postalcode:
+        label: Postcode
+        searchable: true
+
+    Street:
+        label: Straat
+        searchable: true
+
+    Number:
+        label: Huisnummer
+        searchable: true

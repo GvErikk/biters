@@ -6,3 +6,23 @@ fields:
     id:
         label: ID
         disabled: true
+
+    Name:
+        label: Name
+        comment: Vul een restaurant naam in.
+
+    City:
+        label: Plaats
+        comment: Vul de plaats van het restaurant in.
+
+    Postalcode:
+        label: Postcode
+        comment: Vul de postcode van het restaurant in.
+
+    Street:
+        label: Straat
+        comment: Vul de straat van het restaurant in.
+
+    Number:
+        label: Huisnummer
+        comment: Vul het huisnummer van het restaurant in.
