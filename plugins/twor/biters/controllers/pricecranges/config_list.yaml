@@ -3,16 +3,16 @@
 # ===================================
 
 # Model List Column configuration
-list: $/twor/biters/models/priceclass/columns.yaml
+list: $/twor/biters/models/pricecrange/columns.yaml
 
 # Model Class name
-modelClass: TwoR\Biters\Models\Priceclass
+modelClass: TwoR\Biters\Models\Pricecrange
 
 # List Title
-title: Manage Priceclasses
+title: Manage Pricecranges
 
 # Link URL for each record
-recordUrl: twor/biters/priceclasses/update/:id
+recordUrl: twor/biters/pricecranges/update/:id
 
 # Message to display if the list is empty
 noRecordsMessage: backend::lang.list.no_records
