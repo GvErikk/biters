@@ -81,7 +81,23 @@ class Plugin extends PluginBase
      */
     public function registerNavigation()
     {
-        return []; // Remove this line to activate
+        return [
+            'biters' => [
+                'label'       => 'Biters',
+                'url'         => Backend::url('twor/biters/restaurants'),
+                'icon'        => 'icon-coffee',
+                'permissions' => ['twor.biters.*'],
+
+                'sideMenu'    => [
+                    'restaurants' => [
+                        'label' => 'Restaurants',
+                        'icon'        => 'icon-building',
+                        'url'         => Backend::url('twor/biters/restaurants'),
+                        'permissions' => ['twor.biters.*']
+                    ],
+                ]
+            ]
+        ];
 
         return [
             'biters' => [
