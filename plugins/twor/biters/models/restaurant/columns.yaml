@@ -26,3 +26,8 @@ columns:
     Number:
         label: Huisnummer
         searchable: true
+
+    Pricerange:
+        label: Pricerange
+        relation: Pricerange
+        select: pricerange
