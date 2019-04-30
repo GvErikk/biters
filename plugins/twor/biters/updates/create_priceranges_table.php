@@ -11,6 +11,7 @@ class CreatePricerangesTable extends Migration
         Schema::create('twor_biters_priceranges', function(Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
+            $table->integer('pricerange');
             $table->timestamps();
         });
     }

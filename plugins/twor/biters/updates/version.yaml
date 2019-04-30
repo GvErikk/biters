@@ -3,8 +3,9 @@
     - Create the Biters restaurants table
     - create_restaurants_table.php
 1.0.3:
-    - Create the Biters Reservation and customer table
+    - Create the Biters Reservation, pricerange and customer table
     - create_reservations_table.php
+    - create_priceranges_table.php
     - create_customers_table.php
 1.0.4:
     - Seeding all tables

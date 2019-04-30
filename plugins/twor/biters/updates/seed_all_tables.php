@@ -6,6 +6,7 @@
  * Time: 12:05
  */
 use TwoR\Biters\Models\Restaurant;
+use TwoR\Biters\Models\Pricerange;
 use October\Rain\Database\Updates\Seeder;
 
 class SeedAllTables extends  Seeder{
@@ -15,5 +16,10 @@ class SeedAllTables extends  Seeder{
         Restaurant::create(['Name' => 'Colins Breda', 'City'=>'Breda', 'Postalcode'=>'4818 JE', 'Street' => 'Ginnekenweg', 'Number' => '24']);
         Restaurant::create(['Name' => 'Tante Betsie', 'City'=>'Breda', 'Postalcode'=>'4811 ZL', 'Street' => 'Sint Janstraat', 'Number' => '16']);
         Restaurant::create(['Name' => 'Turks Restaurant Lades', 'City'=>'Breda', 'Postalcode'=>'4811 HS', 'Street' => 'Oude Vest', 'Number' => '19']);
+
+        Pricerange::create(['Pricerange'=> '25']);
+        Pricerange::create(['Pricerange'=> '35']);
+        Pricerange::create(['Pricerange'=> '45']);
+        Pricerange::create(['Pricerange'=> '55']);
     }
 }
