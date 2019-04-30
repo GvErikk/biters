@@ -27,7 +27,9 @@ class Restaurant extends Model
      */
     public $hasOne = [];
     public $hasMany = [];
-    public $belongsTo = [];
+    public $belongsTo = [
+        'Pricerange' => ['TwoR\Biters\Models\Pricerange'],
+    ];
     public $belongsToMany = [];
     public $morphTo = [];
     public $morphOne = [];

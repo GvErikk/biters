@@ -26,3 +26,9 @@ fields:
     Number:
         label: Huisnummer
         comment: Vul het huisnummer van het restaurant in.
+
+    Pricerange:
+        label: Pricerange
+        type: relation
+        nameFrom: pricerange
+        comment: Bedrag tot en met

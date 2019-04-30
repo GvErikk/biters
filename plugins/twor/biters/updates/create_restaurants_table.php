@@ -16,6 +16,7 @@ class CreateRestaurantsTable extends Migration
             $table->string('Postalcode');
             $table->string('Street');
             $table->integer('Number');
+            $table->integer('pricerange_id')->nullable();
             $table->timestamps();
         });
     }
