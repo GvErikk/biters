@@ -8,6 +8,7 @@
 use TwoR\Biters\Models\Restaurant;
 use TwoR\Biters\Models\Pricerange;
 use TwoR\Biters\Models\Restauranttype;
+use TwoR\Biters\Models\Reservation;
 use October\Rain\Database\Updates\Seeder;
 
 class SeedAllTables extends  Seeder{
@@ -27,5 +28,7 @@ class SeedAllTables extends  Seeder{
         Restauranttype::create(['Name'=> 'Italiaans']);
         Restauranttype::create(['Name'=> 'Aziatisch']);
         Restauranttype::create(['Name'=> 'Turks']);
+
+        Reservation::create(['Numberofclients'=> '2', 'distance' => '25', 'reservationdate' => '2019-05-02', 'restaurant_id' => '1']);
     }
 }
