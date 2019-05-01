@@ -29,6 +29,6 @@ class SeedAllTables extends  Seeder{
         Restauranttype::create(['Name'=> 'Aziatisch']);
         Restauranttype::create(['Name'=> 'Turks']);
 
-        Reservation::create(['Numberofclients'=> '2', 'distance' => '25', 'reservationdate' => '2019-05-02', 'restaurant_id' => '1']);
+        Reservation::create(['Numberofclients'=> '2', 'distance' => '25', 'reservationdate' => '2019-05-02', 'restaurant_id' => '1', 'pricerange_id' => '1']);
     }
 }
