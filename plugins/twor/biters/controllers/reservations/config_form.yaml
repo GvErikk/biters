@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Reservation
+
+# Model Form Field configuration
+form: $/twor/biters/models/reservation/fields.yaml
+
+# Model Class name
+modelClass: TwoR\Biters\Models\Reservation
+
+# Default redirect location
+defaultRedirect: twor/biters/reservations
+
+# Create page
+create:
+    title: Create Reservation
+    redirect: twor/biters/reservations/update/:id
+    redirectClose: twor/biters/reservations
+
+# Update page
+update:
+    title: Edit Reservation
+    redirect: twor/biters/reservations
+    redirectClose: twor/biters/reservations
+
+# Preview page
+preview:
+    title: Preview Reservation
