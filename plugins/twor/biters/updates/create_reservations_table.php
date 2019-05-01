@@ -15,6 +15,7 @@ class CreateReservationsTable extends Migration
             $table->integer('distance');
             $table->date('reservationdate');
             $table->string('allergies');
+            $table->integer('restaurant_id');
             $table->timestamps();
         });
     }

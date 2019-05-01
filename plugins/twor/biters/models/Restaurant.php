@@ -26,13 +26,16 @@ class Restaurant extends Model
      * @var array Relations
      */
     public $hasOne = [];
-    public $hasMany = [];
+    public $hasMany = [
+        'Reservation' => ['TwoR\Biters\Models\Reservation'],
+    ];
     public $belongsTo = [
         'Pricerange' => ['TwoR\Biters\Models\Pricerange'],
-
         'Restauranttype' => ['TwoR\Biters\Models\Restauranttype'],
     ];
-    public $belongsToMany = [];
+    public $belongsToMany = [
+
+    ];
     public $morphTo = [];
     public $morphOne = [];
     public $morphMany = [];
