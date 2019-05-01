@@ -29,6 +29,7 @@ class Reservation extends Model
     public $hasMany = [];
     public $belongsTo = [
         'Restaurant' => ['TwoR\Biters\Models\Restaurant'],
+        'Pricerange' => ['TwoR\Biters\Models\Pricerange'],
     ];
     public $belongsToMany = [];
     public $morphTo = [];

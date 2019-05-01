@@ -16,3 +16,8 @@ columns:
     reservationdate:
         label: Datum
         searchable: true
+
+    paid:
+        label: Betaald
+        serachable: true
+        type: switch

@@ -21,6 +21,17 @@ fields:
         label: Allergiën
         comment: Vul alle allergiën in.
 
+    Pricerange:
+        label: Pricerange
+        type: relation
+        nameFrom: pricerange
+        comment: Bedrag tot en met
+
+    paid:
+        label: Betaald
+        type: switch
+        comment: Is de betaling gemaakt?
+
     Restaurant:
         label: Restaurant
         type: recordfinder
