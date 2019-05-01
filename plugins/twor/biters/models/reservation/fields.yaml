@@ -3,6 +3,28 @@
 # ===================================
 
 fields:
-    id:
-        label: ID
-        disabled: true
+    numberofclients:
+        label: Aantal gasten
+        comment: Vul het aantal gasten in.
+
+    distance:
+        label: Afstand
+        comment: Vul de maximale afstand in.
+
+    reservationdate:
+        label: Datum
+        comment: Vul de datum van de reservering in.
+        type: datepicker
+        mode: date
+
+    allergies:
+        label: Allergiën
+        comment: Vul alle allergiën in.
+
+    Restaurant:
+        label: Restaurant
+        type: recordfinder
+        list: $/TwoR/Biters/models/restaurant/columns.yaml
+        prompt: Klik de %s knop om een restaurant te selecteren
+        nameFrom: Name
+        comment: Kies het restaurant.

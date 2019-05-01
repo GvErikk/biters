@@ -3,6 +3,16 @@
 # ===================================
 
 columns:
-    id:
-        label: ID
+    Restaurant:
+        label: Restaurant
+        relation: Restaurant
+        select: Name
+        searchable: true
+
+    numberofclients:
+        label: Aantal gasten
+        searchable: true
+
+    reservationdate:
+        label: Datum
         searchable: true

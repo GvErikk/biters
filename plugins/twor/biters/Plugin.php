@@ -107,6 +107,12 @@ class Plugin extends PluginBase
                         'url'         => Backend::url('twor/biters/restauranttypes'),
                         'permissions' => ['twor.biters.*']
                     ],
+                    'reservations' => [
+                        'label' => 'Reserveringen',
+                        'icon'        => 'icon-calendar',
+                        'url'         => Backend::url('twor/biters/reservations'),
+                        'permissions' => ['twor.biters.*']
+                    ],
                 ]
             ]
         ];
